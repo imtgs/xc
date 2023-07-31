@@ -8,7 +8,9 @@ body {
     padding-left: 400px;
     padding-right: 400px;
     background: url("https://w.wallhaven.cc/full/g7/wallhaven-g7wo7d.jpg");
+    background-position: top center;
     color: aliceblue;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 table {
@@ -20,6 +22,9 @@ table {
     padding: 20px;
     border-radius: 15px;
     margin-top: 10px;
+    text-shadow: none;
+    box-shadow: black 0.1em 0.1em 0.2em;
+    font-family: ubuntu;
 }
 
 a {
@@ -32,8 +37,12 @@ footer {
 
 @media (max-width: 900px) {
     body {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .content {
+        padding: 10px;
     }
 }
 
@@ -44,4 +53,9 @@ footer {
             padding-right: 200px;
         }
     }
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url(https://cloud.xshaw.xyz/fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
