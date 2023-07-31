@@ -329,7 +329,6 @@ footer {
   .readme h4,
   .readme h5,
   .readme h6 {
-    margin-bottom: 16px;
     font-weight: 600;
     line-height: 1.25;
   }
