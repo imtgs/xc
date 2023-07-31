@@ -638,14 +638,6 @@ footer {
     background-color: transparent;
   }
   
-  .readme img[align=right] {
-    padding-left: 20px;
-  }
-  
-  .readme img[align=left] {
-    padding-right: 20px;
-  }
-  
   .readme .emoji {
     max-width: none;
     vertical-align: text-top;
