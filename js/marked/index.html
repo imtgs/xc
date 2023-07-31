@@ -53,7 +53,7 @@
     {
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
-            document.getElementById("content").innerHTML=marked(xmlhttp.responseText);
+            document.getElementsByClassName("readme").innerHTML=marked.parse(xmlhttp.responseText);
         }
     }
     xmlhttp.open("GET",'/js/marked/README.md',true);
