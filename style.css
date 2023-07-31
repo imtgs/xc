@@ -26,6 +26,7 @@ table {
     text-shadow: none;
     box-shadow: black 0.1em 0.1em 0.2em;
     font-family: ubuntu;
+    font-size: 1.25em;
 }
 
 a {
