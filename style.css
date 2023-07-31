@@ -14,7 +14,7 @@ body {
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-table {
+.content table {
     width: 100%;
 }
 
@@ -107,12 +107,6 @@ footer {
   
   .readme [hidden] {
     display: none !important;
-  }
-  
-  .readme a {
-    background-color: transparent;
-    color: #58a6ff;
-    text-decoration: none;
   }
   
   .readme abbr[title] {
@@ -232,10 +226,6 @@ footer {
     font: inherit;
   }
   
-  .readme a:hover {
-    text-decoration: underline;
-  }
-  
   .readme ::placeholder {
     color: #6e7681;
     opacity: 1;
@@ -273,34 +263,7 @@ footer {
   .readme details:not([open])>*:not(summary) {
     display: none !important;
   }
-  
-  .readme a:focus,
-  .readme [role=button]:focus,
-  .readme input[type=radio]:focus,
-  .readme input[type=checkbox]:focus {
-    outline: 2px solid #58a6ff;
-    outline-offset: -2px;
-    box-shadow: none;
-  }
-  
-  .readme a:focus:not(:focus-visible),
-  .readme [role=button]:focus:not(:focus-visible),
-  .readme input[type=radio]:focus:not(:focus-visible),
-  .readme input[type=checkbox]:focus:not(:focus-visible) {
-    outline: solid 1px transparent;
-  }
-  
-  .readme a:focus-visible,
-  .readme [role=button]:focus-visible,
-  .readme input[type=radio]:focus-visible,
-  .readme input[type=checkbox]:focus-visible {
-    outline: 2px solid #58a6ff;
-    outline-offset: -2px;
-    box-shadow: none;
-  }
-  
-  .readme a:not([class]):focus,
-  .readme a:not([class]):focus-visible,
+
   .readme input[type=radio]:focus,
   .readme input[type=radio]:focus-visible,
   .readme input[type=checkbox]:focus,
