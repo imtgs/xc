@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+    background: url("https://w.wallhaven.cc/full/g7/wallhaven-g7wo7d.jpg");
+    color: aliceblue;
+}
+
+table {
+    width: 100%;
+}
+
+.content {
+    background-color: rgb(199, 134, 158,0.6);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+a {
+    color: aliceblue;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+    body {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 900px) {
+    @media (max-width: 1280px) {
+        body {
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+    }
+}
