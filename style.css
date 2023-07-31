@@ -9,6 +9,7 @@ body {
     padding-right: 400px;
     background: url("https://w.wallhaven.cc/full/g7/wallhaven-g7wo7d.jpg");
     background-position: top center;
+    background-attachment: fixed;
     color: aliceblue;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
