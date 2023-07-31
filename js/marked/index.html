@@ -34,8 +34,6 @@
   </div>
   <div class="readme"></div>
   <footer>
-    <p>本站破解软件均收集于网络，如有侵权请联系 <a href="mailto:imtgs@qq.com">imtgs@qq.com</a> 删除。</p>
-    <p>本站部分文件未经检验，如出现任何安全问题，本站均不负责。</p>
     <p>Copyright © 2023 by <a href="https://blog.xshaw.xyz">XShaw</a>.</p>
   </footer>
   <script src="https://cloud.xshaw.xyz/js/marked/marked.min.js"></script>
@@ -58,7 +56,6 @@
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
             document.getElementsByClassName("readme")[0].innerHTML=marked.parse(xmlhttp.responseText);
-            console.log(xmlhttp.responseText)
         }
     }
     xmlhttp.open("GET",'https://cloud.xshaw.xyz/js/marked/README.md',true);
