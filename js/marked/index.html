@@ -40,6 +40,10 @@
   </footer>
   <script src="https://cloud.xshaw.xyz/js/marked/marked.min.js"></script>
   <script>
+    marked.setOptions({
+      mangle: false,
+      headerIds: false
+    });
     var xmlhttp;
     if (window.XMLHttpRequest)
     {
